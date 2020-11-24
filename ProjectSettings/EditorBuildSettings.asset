@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 3153511c164cd4741a5f5d7298907461
+  - enabled: 1
     path: Assets/Scenes/Final.unity
     guid: 42f6aa7ce7a604f16ade319663f46ceb
   - enabled: 1
@@ -14,4 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Shop Scene.unity
     guid: 4bd2d8dd7f93764448088890b67feb73
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d72f001597e36bc4fbd4e6f3c947be70,
+      type: 2}
