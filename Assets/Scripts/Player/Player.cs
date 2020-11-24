@@ -77,6 +77,9 @@ public class Player : Singleton<Player>
                 Head = db.FindHead(headName);
                 Body = db.FindBody(bodyName);
 
+                Hat.owned = true;
+                Head.owned = true;
+                Body.owned = true;
             }
             else
             {
